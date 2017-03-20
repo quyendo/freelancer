@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    .row.no-padding-margin
+        .col
+            .product-design
+                .editable-container-flip()
+                    .editable-container-ghost
+                        .editable-container-front
+                            img(src='https://d1b2zzpxewkr9z.cloudfront.net/images/products/apparel/product_type_1_front.png')
+
+                        .editable-container-back
+                            img(src='https://d1b2zzpxewkr9z.cloudfront.net/images/products/apparel/product_type_1_back.png')
+
+    .row.no-padding-margin
+        .col.btn-switch
+            .btn-group(role="group" aria-label="Button switch")
+                button.btn.btn-secondary.active.btn-front.disabled Front
+                button.btn.btn-secondary.btn-back Back
+
+
+    #colorMetabox.color-meta-box
+        ul
+            li.red
+            li.blue
+            li.green
+            li.gray
+            li.dark  

@@ -1,0 +1,22 @@
+{
+  "name": "cteespring",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Quyen Do <quyendn.ird@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "Snap.svg": "snap.svg#^0.5.1"
+  }
+}
